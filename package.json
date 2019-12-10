@@ -7,7 +7,7 @@
     "writeFile": "node writeIndex.js",
     "start": "cross-env NODE_ENV=development node writeIndex.js && ucf-scripts start --homepage=demos#/Button",
     "server": "cross-env NODE_ENV=server node writeIndex.js && ucf-scripts start --homepage=demos#/Button",
-    "build": "cross-env NODE_ENV=production node writeIndex.js && ucf-scripts build"
+    "build": "cross-env NODE_ENV=server node writeIndex.js && ucf-scripts build"
   },
   "repository": {
     "type": "git",
