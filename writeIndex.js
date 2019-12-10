@@ -3,16 +3,16 @@
  */
 const path = require('path');
 const fs = require('fs-extra');
-const componentsPath = path.join(__dirname, `./src/`);
+const componentsPath = path.join(__dirname, `./ucf-apps/demos/src/`);
 const demoJsReg = /Demo[\w\W]+\.js/;
 const demoLessReg = /Demo[\w\W]+\.less/;
 
 let replaceLink = [];
-let replaceRoute = ['<App/>','<Route exact path="/" component="首页" />'];
+let replaceRoute = ['<App/>'];
 let replaceImportant = [];
 
 let isServer = process.env.NODE_ENV=='server';
-if(isServer)replaceRoute = ['<Route exact path="/" component="首页" />']
+if(isServer)replaceRoute = []
 let components = fs.readdirSync(componentsPath);
 components.forEach(component=>{
     //1、生成 index.js 
@@ -45,7 +45,7 @@ components.forEach(component=>{
 })
 
 
-//2、生成app.js
+//2、生成router/index.js
 let appJs = fs.readFileSync(path.join(__dirname,'./template/appTemplate.js'),'utf-8');
 appJs = appJs.replace('replaceImportant',replaceImportant.join('\n'))
 .replace('replaceLink',replaceLink.join('\n'))
@@ -55,9 +55,8 @@ if(isServer){
 }else{
     appJs = appJs.replace('replaceRender',"ReactDOM.render(<Routers/>, document.getElementById('mobileDemo'));");
 }
-
-fs.writeFileSync(path.join(__dirname,'./src/app.js'),appJs);
-console.log(`✌️ 😀 ✌️ app.js 文件生成成功`)
+fs.writeFileSync(path.join(__dirname,'./ucf-apps/demos/src/app.js'),appJs);
+console.log(`✌️ 😀 ✌️ app.js 文件生成成功!`)
 
 //3、生成 index.html 
 let indexHtml = fs.readFileSync(path.join(__dirname,'./template/indexHtmlTemplate.html'),'utf-8');
@@ -66,5 +65,6 @@ if(isServer){
 }else{
     indexHtml = indexHtml.replace('replaceHtml','<div class="test-phone" ><div class="phone-dot"></div><div class="phone-header"><img src="https://os.alipayobjects.com/rmsportal/VfVHYcSUxreetec.png"/></div><div id="mobileDemo"></div><div class="phone-footer"><i class="uf uf-stop-c"></i></div></div>');
 }
-fs.writeFileSync(path.join(__dirname,'./index.html'),indexHtml);
-console.log(`✌️ 😀 ✌️ indexHtml 文件修改成功`)
+fs.writeFileSync(path.join(__dirname,'./ucf-apps/demos/src/index.html'),indexHtml);
+console.log(`✌️ 😀 ✌️ indexHtml 文件修改成功!`)
+
