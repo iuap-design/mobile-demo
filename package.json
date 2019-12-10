@@ -6,7 +6,8 @@
   "scripts": {
     "writeFile": "node writeIndex.js",
     "build": "cross-env NODE_ENV=production node writeIndex.js && webpack -p",
-    "dev": "cross-env NODE_ENV=development node writeIndex.js && webpack -p && webpack-dev-server --open "
+    "dev": "cross-env NODE_ENV=development node writeIndex.js && webpack -p && webpack-dev-server --open ",
+    "server": "cross-env NODE_ENV=server node writeIndex.js && webpack -p && webpack-dev-server --open "
   },
   "keywords": [],
   "author": "",

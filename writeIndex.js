@@ -8,13 +8,15 @@ const demoJsReg = /Demo[\w\W]+\.js/;
 const demoLessReg = /Demo[\w\W]+\.less/;
 
 let replaceLink = [];
-let replaceRoute = [];
+let replaceRoute = ['<App/>','<Route exact path="/" component="首页" />'];
 let replaceImportant = [];
 
+let isServer = process.env.NODE_ENV=='server';
+if(isServer)replaceRoute = ['<Route exact path="/" component="首页" />']
 let components = fs.readdirSync(componentsPath);
 components.forEach(component=>{
     //1、生成 index.js 
-    let template = fs.readFileSync(path.join(__dirname, `./indexTemplate.js`),'utf-8');
+    let template = fs.readFileSync(path.join(__dirname, `./template/indexTemplate.js`),'utf-8');
     let demoJs = [];
     let demoLess = [];
     let demoJsDom = [];
@@ -32,7 +34,7 @@ components.forEach(component=>{
         template=template.replace('importDemoJs',demoJs.join('\n'))
         .replace('importDemoless',demoLess.join('\n'))
         .replace('importDemoJsDom',demoJsDom.join('\n'))
-        .replace('replaceENV',process.env.NODE_ENV=='development'?"export default Exmple;":"ReactDOM.render(<Exmple/>, document.getElementById('mobileDemo'));")
+        .replace('replaceENV',process.env.NODE_ENV!='production'?"export default Exmple;":"ReactDOM.render(<Exmple/>, document.getElementById('mobileDemo'));")
         fs.writeFileSync(componentsPath+`${component}/index.js`,template)
         console.log(`✌️ 😀 ✌️ ${component} index.js 文件生成成功`)
         replaceImportant.push('import '+component+' from "./'+component+'/index";');
@@ -44,7 +46,25 @@ components.forEach(component=>{
 
 
 //2、生成app.js
-let appJs = fs.readFileSync(path.join(__dirname,'./appTemplate.js'),'utf-8');
-appJs = appJs.replace('replaceImportant',replaceImportant.join('\n')).replace('replaceLink',replaceLink.join('\n')).replace('replaceRoute',replaceRoute.join('\n'));
+let appJs = fs.readFileSync(path.join(__dirname,'./template/appTemplate.js'),'utf-8');
+appJs = appJs.replace('replaceImportant',replaceImportant.join('\n'))
+.replace('replaceLink',replaceLink.join('\n'))
+.replace('replaceRoute',replaceRoute.join('\n'));
+if(isServer){
+    appJs = appJs.replace('replaceRender',"ReactDOM.render(<Routers/>, document.getElementById('testPhone'));");
+}else{
+    appJs = appJs.replace('replaceRender',"ReactDOM.render(<Routers/>, document.getElementById('mobileDemo'));");
+}
+
 fs.writeFileSync(path.join(__dirname,'./src/app.js'),appJs);
 console.log(`✌️ 😀 ✌️ app.js 文件生成成功`)
+
+//3、生成 index.html 
+let indexHtml = fs.readFileSync(path.join(__dirname,'./template/indexHtmlTemplate.html'),'utf-8');
+if(isServer){
+    indexHtml = indexHtml.replace('replaceHtml','<div id="testPhone"></div>')
+}else{
+    indexHtml = indexHtml.replace('replaceHtml','<div class="test-phone" ><div class="phone-dot"></div><div class="phone-header"><img src="https://os.alipayobjects.com/rmsportal/VfVHYcSUxreetec.png"/></div><div id="mobileDemo"></div><div class="phone-footer"><i class="uf uf-stop-c"></i></div></div>');
+}
+fs.writeFileSync(path.join(__dirname,'./index.html'),indexHtml);
+console.log(`✌️ 😀 ✌️ indexHtml 文件修改成功`)

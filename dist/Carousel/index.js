@@ -24,4 +24,4 @@ class Exmple extends React.Component {
   }
 }
 
-ReactDOM.render(<Exmple/>, document.getElementById('mobileDemo'));
+export default Exmple;
