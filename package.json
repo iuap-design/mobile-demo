@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "writeFile":"node writeIndex.js",
+    "writeFile": "node writeIndex.js",
     "build": "cross-env NODE_ENV=production node writeIndex.js && webpack -p",
     "dev": "cross-env NODE_ENV=development node writeIndex.js && webpack -p && webpack-dev-server --open "
   },
@@ -45,6 +45,7 @@
     "axios": "^0.18.0",
     "babel-preset-env": "^1.7.0",
     "cross-env": "^6.0.3",
+    "fs-extra": "^8.1.0",
     "glob": "^7.1.6",
     "rc-form": "^2.4.11",
     "react": "^16.4.2",
