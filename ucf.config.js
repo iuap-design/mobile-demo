@@ -67,16 +67,11 @@ module.exports = (env, argv) => {
             __MODE__: JSON.stringify(env),
             GROBAL_HTTP_CTX: isBuild ? JSON.stringify("/ucf-webapp") : JSON.stringify("/mock/936"),
             'process.env.NODE_ENV': JSON.stringify(env),
-            'process.env.STATIC_HTTP_PATH': env == 'development' ? JSON.stringify("/static") : JSON.stringify("../static")
         },
         static: 'ucf-common/src',
         // 别名配置
         alias: {
-            components: path.resolve(__dirname, 'ucf-common/src/components/'),
-            utils: path.resolve(__dirname, 'ucf-common/src/utils/'),
-            static: path.resolve(__dirname, 'ucf-common/src/static/'),
-            styles: path.resolve(__dirname, 'ucf-common/src/styles/'),
-            //'ucf-apps': path.resolve(__dirname, 'ucf-apps/')
+            
         },
         // 构建排除指定包
         externals: {
