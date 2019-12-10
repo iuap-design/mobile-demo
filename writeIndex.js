@@ -34,7 +34,7 @@ components.forEach(component=>{
         template=template.replace('importDemoJs',demoJs.join('\n'))
         .replace('importDemoless',demoLess.join('\n'))
         .replace('importDemoJsDom',demoJsDom.join('\n'))
-        .replace('replaceENV',process.env.NODE_ENV!='production'?"export default Exmple;":"ReactDOM.render(<Exmple/>, document.getElementById('mobileDemo'));")
+        .replace('replaceENV',"export default Exmple;")
         fs.writeFileSync(componentsPath+`${component}/index.js`,template)
         console.log(`✌️ 😀 ✌️ ${component} index.js 文件生成成功`)
         replaceImportant.push('import '+component+' from "./'+component+'/index";');
