@@ -35,7 +35,7 @@ import TextareaItem from "./TextareaItem/index";
 import WhiteSpace from "./WhiteSpace/index";
 import WingBlank from "./WingBlank/index";
 import "./app.less";
-
+import "@libraui/base-mobile/dist/index.css"
 class App extends Component{
     render(){
         return (<div className='link'>
