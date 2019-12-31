@@ -1,6 +1,6 @@
 
 import { TabBar, ListView } from 'antd-mobile';
-
+import './Demo2.less'
 const data = [
   {
     img: 'https://zos.alipayobjects.com/rmsportal/dKbkpPXKfvZzWCM.png',
@@ -296,3 +296,6 @@ class TabBarExample extends React.Component {
 }
 export default TabBarExample
 
+
+//@title 基础示例
+//@description 基本使用方式

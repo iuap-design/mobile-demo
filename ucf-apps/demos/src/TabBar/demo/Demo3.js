@@ -1,6 +1,6 @@
 
 import { TabBar } from 'antd-mobile';
-
+import './Demo3.less'
 class TabBarExample extends React.Component {
   constructor(props) {
     super(props);
@@ -151,3 +151,5 @@ class TabBarExample extends React.Component {
 }
 export default TabBarExample
 
+//@title 
+//@description 'Tabbar 在顶部

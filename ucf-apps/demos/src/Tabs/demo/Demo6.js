@@ -30,3 +30,5 @@ const TabExample = () => (
 );
 
 export default TabExample
+//@title 
+//@description 垂直样式

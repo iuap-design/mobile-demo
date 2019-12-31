@@ -1,6 +1,6 @@
 
 import { SegmentedControl, WingBlank } from 'antd-mobile';
-import './Basic.less'
+import './Demo1.less'
 class SegmentedControlExample extends React.Component {
   onChange = (e) => {
     console.log(`selectedIndex:${e.nativeEvent.selectedSegmentIndex}`);
@@ -39,3 +39,5 @@ class SegmentedControlExample extends React.Component {
 }
 export default SegmentedControlExample
 
+//@title 基础示例
+//@description 基本使用方式

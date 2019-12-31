@@ -1,5 +1,5 @@
 import { Pagination, Icon } from 'antd-mobile';
-import './Basic.less'
+import './Demo1.less'
 const locale = {
   prevText: 'Prev',
   nextText: 'Next',
@@ -35,3 +35,5 @@ const App = () => (
 
 export default App;
 
+//@title 基础示例
+//@description 基本使用方式
