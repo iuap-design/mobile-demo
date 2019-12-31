@@ -43,6 +43,7 @@ import Tag from "./Tag/index";
 import TextareaItem from "./TextareaItem/index";
 import WhiteSpace from "./WhiteSpace/index";
 import WingBlank from "./WingBlank/index";
+import "@libraui/base-mobile/dist/index.css"
 import "./app.less";
 
 class App extends Component{
