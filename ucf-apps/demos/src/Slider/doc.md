@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { Slider } from 'antd-mobile';
+import { Slider } from '@libraui/base-mobile';
 
 ```
 

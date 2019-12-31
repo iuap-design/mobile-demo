@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Progress, Button, WingBlank, WhiteSpace } from 'antd-mobile';
+import { Progress, Button, WingBlank, WhiteSpace } from '@libraui/base-mobile';
 
 class MyProgress extends React.Component {
   state = {

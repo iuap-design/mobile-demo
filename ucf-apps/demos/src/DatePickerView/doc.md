@@ -5,7 +5,7 @@ DatePickerView 的功能类似于 DatePicker ，但它是直接渲染在区域�
 ## 如何使用
 
 ```
-import { DatePickerView } from 'antd-mobile';
+import { DatePickerView } from '@libraui/base-mobile';
 
 ```
 

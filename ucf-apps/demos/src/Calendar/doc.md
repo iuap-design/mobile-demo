@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { Calendar } from 'antd-mobile';
+import { Calendar } from '@libraui/base-mobile';
 
 ```
 

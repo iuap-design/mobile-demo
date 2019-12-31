@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { List, Switch } from 'antd-mobile';
+import { List, Switch } from '@libraui/base-mobile';
 import { createForm } from 'rc-form';
 
 class SwitchExample extends React.Component {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { List, InputItem, WhiteSpace } from 'antd-mobile';
+import { List, InputItem, WhiteSpace } from '@libraui/base-mobile';
 import { createForm } from 'rc-form';
 
 class BasicInputExample extends React.Component {

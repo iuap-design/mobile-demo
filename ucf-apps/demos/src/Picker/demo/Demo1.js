@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Picker, List, WhiteSpace } from 'antd-mobile';
+import { Picker, List, WhiteSpace } from '@libraui/base-mobile';
 import { createForm } from 'rc-form';
 import arrayTreeFilter from 'array-tree-filter';
 

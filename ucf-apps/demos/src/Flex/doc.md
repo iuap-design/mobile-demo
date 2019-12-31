@@ -6,7 +6,7 @@ Flex 是 CSS flex 布局的一个封装。
 ## 如何使用
 
 ```
-import { Flex } from 'antd-mobile';
+import { Flex } from '@libraui/base-mobile';
 
 ```
 

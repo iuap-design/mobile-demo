@@ -6,7 +6,7 @@
 ## 如何使用
 
 ```
-import { ListView } from 'antd-mobile';
+import { ListView } from '@libraui/base-mobile';
 
 ```
 

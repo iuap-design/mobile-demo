@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Card, WingBlank, WhiteSpace } from 'antd-mobile';
+import { Card, WingBlank, WhiteSpace } from '@libraui/base-mobile';
 
 class Test extends Component{
   render(){

@@ -1,5 +1,5 @@
 import React from "react";
-import { List, Stepper } from 'antd-mobile';
+import { List, Stepper } from '@libraui/base-mobile';
 
 class Demo extends React.Component {
   constructor(props) {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Flex, WhiteSpace } from 'antd-mobile';
+import { Flex, WhiteSpace } from '@libraui/base-mobile';
 
 const PlaceHolder = ({ className = '', ...restProps }) => (
   <div className={`${className} placeholder`} {...restProps}>Block</div>

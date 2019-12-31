@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { Checkbox } from 'antd-mobile';
+import { Checkbox } from '@libraui/base-mobile';
 
 ```
 

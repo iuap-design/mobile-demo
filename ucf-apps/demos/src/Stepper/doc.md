@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { Stepper } from 'antd-mobile';
+import { Stepper } from '@libraui/base-mobile';
 
 ```
 

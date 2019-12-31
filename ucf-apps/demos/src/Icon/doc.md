@@ -6,7 +6,7 @@
 ## 如何使用
 
 ```jsx
-import { Icon } from 'antd-mobile';
+import { Icon } from '@libraui/base-mobile';
 
 <Icon type="check" />
 

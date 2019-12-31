@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { ImagePicker } from 'antd-mobile';
+import { ImagePicker } from '@libraui/base-mobile';
 
 ```
 

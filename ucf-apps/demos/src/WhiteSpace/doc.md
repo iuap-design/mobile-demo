@@ -6,7 +6,7 @@
 ## 如何使用
 
 ```
-import { WhiteSpace } from 'antd-mobile';
+import { WhiteSpace } from '@libraui/base-mobile';
 
 ```
 

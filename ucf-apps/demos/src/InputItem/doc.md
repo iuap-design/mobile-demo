@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { InputItem } from 'antd-mobile';
+import { InputItem } from '@libraui/base-mobile';
 
 ```
 

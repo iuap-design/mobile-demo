@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { Radio } from 'antd-mobile';
+import { Radio } from '@libraui/base-mobile';
 
 ```
 

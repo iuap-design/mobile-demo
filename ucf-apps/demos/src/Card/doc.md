@@ -6,7 +6,7 @@
 ## 如何使用
 
 ```
-import { Card } from 'antd-mobile';
+import { Card } from '@libraui/base-mobile';
 
 ```
 

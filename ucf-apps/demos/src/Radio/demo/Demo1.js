@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { List, Radio, Flex, WhiteSpace } from 'antd-mobile';
+import { List, Radio, Flex, WhiteSpace } from '@libraui/base-mobile';
 
 const RadioItem = Radio.RadioItem;
 

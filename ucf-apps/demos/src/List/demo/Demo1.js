@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import { List } from 'antd-mobile';
-
+import { List } from '@libraui/base-mobile';
 const Item = List.Item;
 const Brief = Item.Brief;
-
 class ListExample extends React.Component {
   state = {
     disabled: false,

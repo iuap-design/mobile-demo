@@ -6,7 +6,7 @@
 ## 如何使用
 
 ```
-import { List } from 'antd-mobile';
+import { List } from '@libraui/base-mobile';
 
 ```
 

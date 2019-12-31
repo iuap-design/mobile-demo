@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { List, Badge } from 'antd-mobile';
-
+import { List, Badge } from '@libraui/base-mobile';
 const BadgeDemo = () => (
   <List>
     <List.Item extra="extra content" arrow="horizontal">

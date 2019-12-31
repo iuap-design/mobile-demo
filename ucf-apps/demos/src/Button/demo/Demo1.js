@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button, WhiteSpace, WingBlank } from 'antd-mobile';
+import { Button, WhiteSpace, WingBlank } from '@libraui/base-mobile';
 
 class ButtonExample extends Component{
     render(){

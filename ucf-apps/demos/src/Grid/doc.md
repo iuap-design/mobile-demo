@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { Grid } from 'antd-mobile';
+import { Grid } from '@libraui/base-mobile';
 
 ```
 

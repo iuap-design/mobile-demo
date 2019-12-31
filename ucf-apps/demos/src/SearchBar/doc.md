@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { SearchBar } from 'antd-mobile';
+import { SearchBar } from '@libraui/base-mobile';
 
 ```
 

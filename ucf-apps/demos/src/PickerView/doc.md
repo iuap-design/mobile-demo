@@ -6,7 +6,7 @@ PickerView 的功能类似于 Picker ，但它是直接渲染在区域中，而�
 ## 如何使用
 
 ```
-import { PickerView } from 'antd-mobile';
+import { PickerView } from '@libraui/base-mobile';
 
 ```
 

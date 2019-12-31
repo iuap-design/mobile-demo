@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { ImagePicker } from 'antd-mobile';
+import { ImagePicker } from '@libraui/base-mobile';
 
 const data = [{
   url: 'https://zos.alipayobjects.com/rmsportal/PZUUCKTRIHWiZSY.jpeg',

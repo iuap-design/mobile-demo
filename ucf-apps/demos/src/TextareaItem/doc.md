@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { TextareaItem } from 'antd-mobile';
+import { TextareaItem } from '@libraui/base-mobile';
 
 ```
 

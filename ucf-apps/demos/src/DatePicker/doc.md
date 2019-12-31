@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { DatePicker } from 'antd-mobile';
+import { DatePicker } from '@libraui/base-mobile';
 
 ```
 

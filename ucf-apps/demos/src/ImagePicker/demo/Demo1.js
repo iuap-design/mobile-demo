@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { ImagePicker, WingBlank, SegmentedControl } from 'antd-mobile';
+import { ImagePicker, WingBlank, SegmentedControl } from '@libraui/base-mobile';
 
 const data = [{
   url: 'https://zos.alipayobjects.com/rmsportal/PZUUCKTRIHWiZSY.jpeg',

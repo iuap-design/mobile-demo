@@ -6,7 +6,7 @@
 ## 如何使用
 
 ```
-import { Accordion } from 'antd-mobile';
+import { Accordion } from '@libraui/base-mobile';
 
 ```
 

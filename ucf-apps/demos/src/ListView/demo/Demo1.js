@@ -1,5 +1,5 @@
 import React from "react";
-import { ListView } from 'antd-mobile';
+import { ListView } from '@libraui/base-mobile';
 
 function MyBody(props) {
   return (

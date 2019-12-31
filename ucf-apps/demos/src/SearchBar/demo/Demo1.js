@@ -1,5 +1,5 @@
 import React from "react";
-import { SearchBar, Button, WhiteSpace, WingBlank } from 'antd-mobile';
+import { SearchBar, Button, WhiteSpace, WingBlank } from '@libraui/base-mobile';
 
 class SearchBarExample extends React.Component {
   state = {

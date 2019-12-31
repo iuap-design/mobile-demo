@@ -6,7 +6,7 @@
 ## 如何使用
 
 ```
-import { Badge } from 'antd-mobile';
+import { Badge } from '@libraui/base-mobile';
 
 ```
 

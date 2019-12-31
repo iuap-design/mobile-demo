@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Tag } from 'antd-mobile';
+import { Tag } from '@libraui/base-mobile';
 
 function onChange(selected) {
   console.log(`tag selected: ${selected}`);

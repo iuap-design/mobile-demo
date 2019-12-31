@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { Picker } from 'antd-mobile';
+import { Picker } from '@libraui/base-mobile';
 
 ```
 

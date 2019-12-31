@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { PickerView, WhiteSpace } from 'antd-mobile';
+import { PickerView, WhiteSpace } from '@libraui/base-mobile';
 
 const seasons = [
   [

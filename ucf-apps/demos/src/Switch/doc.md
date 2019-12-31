@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { Switch } from 'antd-mobile';
+import { Switch } from '@libraui/base-mobile';
 
 ```
 

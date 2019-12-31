@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { Progress } from 'antd-mobile';
+import { Progress } from '@libraui/base-mobile';
 
 ```
 

@@ -6,7 +6,7 @@
 ## 如何使用
 
 ```
-import { WingBlank } from 'antd-mobile';
+import { WingBlank } from '@libraui/base-mobile';
 
 ```
 

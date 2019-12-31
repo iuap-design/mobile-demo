@@ -6,7 +6,7 @@
 ## 如何使用
 
 ```
-import { Tag } from 'antd-mobile';
+import { Tag } from '@libraui/base-mobile';
 
 ```
 
