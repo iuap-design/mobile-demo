@@ -16,8 +16,15 @@ import Checkbox from "./Checkbox/index";
 import DatePicker from "./DatePicker/index";
 import DatePickerView from "./DatePickerView/index";
 import Flex from "./Flex/index";
+/**导航栏 */
 import Drawer from "./Drawer/index";
 import Menu from './Menu/index'
+import NavBar from './NavBar/index'
+import Popover from './Popover/index'
+import Pagination from './Pagination/index'
+import SegmentedControl from './Segmented-Control/index'
+import TabBar from './TabBar/index'
+import Tabs from './Tabs/index'
 import Grid from "./Grid/index";
 import Icon from "./Icon/index";
 import ImagePicker from "./ImagePicker/index";
@@ -51,8 +58,15 @@ class App extends Component {
             <Link to="/DatePicker">DatePicker</Link>
             <Link to="/DatePickerView">DatePickerView</Link>
             <Link to="/Flex">Flex</Link>
+            {/**导航栏 */}
             <Link to="/Drawer">Drawer</Link>
             <Link to="/Menu">Menu</Link>
+            <Link to="/NavBar">NavBar</Link>
+            <Link to="/Popover">Popover</Link>
+            <Link to="/Pagination">Pagination</Link>
+            <Link to="/SegmentedControl">SegmentedControl</Link>
+            <Link to="/TabBar">TabBar</Link>
+            <Link to="/Tabs">Tabs</Link>
             <Link to="/Grid">Grid</Link>
             <Link to="/Icon">Icon</Link>
             <Link to="/ImagePicker">ImagePicker</Link>
@@ -92,8 +106,15 @@ class Routers extends Component {
                     <Route exact path="/DatePicker" component={DatePicker} />
                     <Route exact path="/DatePickerView" component={DatePickerView} />
                     <Route exact path="/Flex" component={Flex} />
+                    {/**导航栏 */}
                     <Route exact path="/Drawer" component={Drawer} />
                     <Route exact path="/Menu" component={Menu} />
+                    <Route exact path="/NavBar" component={NavBar} />
+                    <Route exact path="/Popover" component={Popover} />
+                    <Route exact path="/Pagination" component={Pagination} />
+                    <Route exact path="/SegmentedControl" component={SegmentedControl} />
+                    <Route exact path="/TabBar" component={TabBar} />
+                    <Route exact path="/Tabs" component={Tabs} />
                     <Route exact path="/Grid" component={Grid} />
                     <Route exact path="/Icon" component={Icon} />
                     <Route exact path="/ImagePicker" component={ImagePicker} />
