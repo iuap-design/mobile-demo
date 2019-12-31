@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { List, InputItem, Switch, Stepper, Range, Button } from '@libraui/base-mobile';
+import { List, InputItem, Switch, Range, Button } from '@libraui/base-mobile';
 import { createForm } from 'rc-form';
 
 const Item = List.Item;
@@ -57,7 +57,7 @@ class BasicInput extends React.Component {
           extra={<Switch {...getFieldProps('1', { initialValue: true, valuePropName: 'checked' })} />}
         >Confirm Infomation</Item>
         <Item><div style={{ padding: 7 }}><Range defaultValue={[20, 80]} /></div></Item>
-        <Item extra={<Stepper style={{ width: '100%', minWidth: '100px' }} showNumber size="small" defaultValue={20} />}>Number of Subscribers</Item>
+        {/*<Item extra={<Stepper style={{ width: '100%', minWidth: '100px' }} showNumber size="small" defaultValue={20} />}>Number of Subscribers</Item>*/}
         <Item>
           <Button type="primary" size="small" inline onClick={this.onSubmit}>Submit</Button>
           <Button size="small" inline style={{ marginLeft: '2.5px' }} onClick={this.onReset}>Reset</Button>

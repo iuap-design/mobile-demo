@@ -4,7 +4,7 @@ import { createForm } from 'rc-form';
 
 class TextareaItemExample extends React.Component {
   componentDidMount() {
-    this.autoFocusInst.focus();
+    // this.autoFocusInst.focus();
   }
   render() {
     const { getFieldProps } = this.props.form;
