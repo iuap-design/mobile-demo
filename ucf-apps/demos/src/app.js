@@ -30,6 +30,7 @@ import Icon from "./Icon/index";
 import ImagePicker from "./ImagePicker/index";
 import InputItem from "./InputItem/index";
 import List from "./List/index";
+import NoticeBar from './NoticeBar/index'
 import ListView from "./ListView/index";
 import Picker from "./Picker/index";
 import PickerView from "./PickerView/index";
@@ -72,6 +73,7 @@ class App extends Component {
             <Link to="/ImagePicker">ImagePicker</Link>
             <Link to="/InputItem">InputItem</Link>
             <Link to="/List">List</Link>
+            <Link to="/NoticeBar">NoticeBar</Link>
             <Link to="/ListView">ListView</Link>
             <Link to="/Picker">Picker</Link>
             <Link to="/PickerView">PickerView</Link>
@@ -120,6 +122,7 @@ class Routers extends Component {
                     <Route exact path="/ImagePicker" component={ImagePicker} />
                     <Route exact path="/InputItem" component={InputItem} />
                     <Route exact path="/List" component={List} />
+                    <Route exact path="/NoticeBar" component={NoticeBar} />
                     <Route exact path="/ListView" component={ListView} />
                     <Route exact path="/Picker" component={Picker} />
                     <Route exact path="/PickerView" component={PickerView} />
