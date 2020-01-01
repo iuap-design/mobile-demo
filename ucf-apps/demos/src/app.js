@@ -43,6 +43,10 @@ import Tag from "./Tag/index";
 import TextareaItem from "./TextareaItem/index";
 import WhiteSpace from "./WhiteSpace/index";
 import WingBlank from "./WingBlank/index";
+import Modal from "./Modal/index";
+import Result from "./Result/index";
+import SwipeAction from "./SwipeAction/index";
+import PullToRefresh from "./PullToRefresh/index";
 import "@libraui/base-mobile/dist/index.css"
 import "./app.less";
 
@@ -87,6 +91,10 @@ class App extends Component{
 <Link to="/TextareaItem">TextareaItem</Link>
 <Link to="/WhiteSpace">WhiteSpace</Link>
 <Link to="/WingBlank">WingBlank</Link>
+<Link to="/Modal">Modal</Link>
+<Link to="/Result">Result</Link>
+<Link to="/SwipeAction">SwipeAction</Link>
+<Link to="/PullToRefresh">PullToRefresh</Link>
     </div>)
     }
 }
@@ -135,6 +143,10 @@ class Routers extends Component{
 <Route exact path="/TextareaItem" component={TextareaItem} /> 
 <Route exact path="/WhiteSpace" component={WhiteSpace} /> 
 <Route exact path="/WingBlank" component={WingBlank} /> 
+<Route exact path="/Modal" component={Modal} /> 
+<Route exact path="/Result" component={Result} /> 
+<Route exact path="/SwipeAction" component={SwipeAction} /> 
+<Route exact path="/PullToRefresh" component={PullToRefresh} /> 
                 </div>
             </Router>
         )
