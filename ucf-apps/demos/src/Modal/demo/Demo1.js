@@ -69,5 +69,4 @@ const App = () => (
   </WingBlank>
 );
 
-ReactDOM.render(<App />, mountNode);
-
+export default App

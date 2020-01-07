@@ -14,6 +14,5 @@ const App = () => (
     <WhiteSpace size="lg" />
   </WingBlank>
 );
-
-ReactDOM.render(<App />, mountNode);
+export default App
 

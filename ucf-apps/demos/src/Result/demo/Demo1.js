@@ -1,6 +1,5 @@
 import React from 'react'
 import { Result, Icon, WhiteSpace } from 'antd-mobile';
-
 const myImg = src => <img src={src} className="spe am-icon am-icon-md" alt="" />;
 
 const ResultExample = () => (<div className="result-example">
@@ -40,4 +39,4 @@ const ResultExample = () => (<div className="result-example">
   />
 </div>);
 
-ReactDOM.render(<ResultExample />, mountNode);
+export default ResultExample;
