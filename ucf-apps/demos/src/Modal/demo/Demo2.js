@@ -12,7 +12,7 @@ function closest(el, selector) {
   return null;
 }
 
-export default class App extends React.Component {
+class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -91,3 +91,4 @@ export default class App extends React.Component {
   }
 }
 
+ReactDOM.render(<App />, mountNode);
