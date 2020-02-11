@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { InputItem } from '@libraui/base-mobile';
+import { InputItem } from 'tinper-libraui';
 
 ```
 
@@ -20,10 +20,10 @@ import { InputItem } from '@libraui/base-mobile';
 
 ## API
 
-**`InputItem` 必须用 [List](https://mobile.ant.design/components/list) 组件包裹才能正常使用**
+**`InputItem` 必须用 `List` 组件包裹才能正常使用**
 
-|属性 | 说明 | 类型 | 默认值
-|----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | type    | 可以是银行卡`bankCard`; 手机号`phone`(此时最大长度固定为11,`maxLength`设置无效); 密码`password`; 数字`number`(为了尽量唤起`带小数点`的数字键盘，此类型并不是原生 number，而是`<input type="text" pattern="[0-9]*" />`); `digit`(表示原生的 number 类型); `money`(带小数点的模拟的数字键盘) 以及其他标准 html input type 类型 | String |  `text`  |
 | value    | value 值(受控与否参考https://facebook.github.io/react/docs/forms.html)  | String |  无  |
 | defaultValue    | 设置初始默认值        | String |  -  |
@@ -59,8 +59,8 @@ import { InputItem } from '@libraui/base-mobile';
 
 ### InputItem methods
 
-|属性 | 说明 | 类型 | 默认值
-|----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | focus    | 使 input 聚焦  | (): void |  -  |
 
 

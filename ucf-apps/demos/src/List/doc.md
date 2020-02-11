@@ -6,7 +6,7 @@
 ## 如何使用
 
 ```
-import { List } from '@libraui/base-mobile';
+import { List } from 'tinper-libraui';
 
 ```
 
@@ -17,15 +17,15 @@ import { List } from '@libraui/base-mobile';
 
 ### List
 
-|属性 | 说明 | 类型 | 默认值
-|----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | renderHeader       | list heder  | (): void |  无  |
 | renderFooter       | list footer  | (): void |  无  |
 
 ### List.Item
 
-| 属性 | 说明 | 类型 | 默认值
-| ----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+| ----|-----|------|------|
 | thumb       | 缩略图(当为 string 类型时作为 img src)  | String/React.Element |  无  |
 | extra      | 右边内容        | String/React.Element |  无  |
 | arrow      | 箭头方向(右,上,下), 可选`horizontal`,`up`,`down`,`empty`，如果是`empty`则存在对应的dom,但是不显示   | String |   无  |

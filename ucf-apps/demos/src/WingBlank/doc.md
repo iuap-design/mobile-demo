@@ -6,7 +6,7 @@
 ## 如何使用
 
 ```
-import { WingBlank } from '@libraui/base-mobile';
+import { WingBlank } from 'tinper-libraui';
 
 ```
 
@@ -17,8 +17,8 @@ import { WingBlank } from '@libraui/base-mobile';
 
 
 
-| 属性 | 说明 | 类型 | 默认值
-| ----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+| ----|-----|------|------ |
 | size    | 两翼留白的间距，可选`sm`,`md`,`lg`  | string |  `lg`  |
 
 

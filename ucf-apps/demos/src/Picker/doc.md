@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { Picker } from '@libraui/base-mobile';
+import { Picker } from 'tinper-libraui';
 
 ```
 
@@ -14,8 +14,8 @@ import { Picker } from '@libraui/base-mobile';
 
 ## API
 
-|属性 | 说明 | 类型 | 默认值
-|----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | data    | 数据源        | `Array<{value, label, children: Array}>` |   -  |
 | value   | 值, 格式是`[value1, value2, value3]`, 对应数据源的相应级层value    | Array  | - |
 | format  | 格式化选中目标的函数  | (labels: React.ReactNode[]): any | if label is string: `(labels) => { return labels.join(',');}` else: `(labels) => { return labels;} ` |

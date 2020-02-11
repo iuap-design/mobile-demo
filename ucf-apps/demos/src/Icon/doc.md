@@ -6,7 +6,7 @@
 ## 如何使用
 
 ```jsx
-import { Icon } from '@libraui/base-mobile';
+import { Icon } from 'tinper-libraui';
 
 <Icon type="check" />
 
@@ -18,8 +18,8 @@ import { Icon } from '@libraui/base-mobile';
 ## API
 
 
-|属性 | 说明 | 类型 | 默认值
-|----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | type    |   内置 icon 名称   | String   |
 | size    |   图标大小    | 'xxs'/'xs'/'sm'/'md'/'lg'  | `md` |
 | color   | 图标颜色  | Color | '#000' |

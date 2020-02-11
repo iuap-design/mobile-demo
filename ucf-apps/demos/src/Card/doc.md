@@ -6,7 +6,7 @@
 ## 如何使用
 
 ```
-import { Card } from '@libraui/base-mobile';
+import { Card } from 'tinper-libraui';
 
 ```
 
@@ -17,14 +17,14 @@ import { Card } from '@libraui/base-mobile';
 
 ### Card
 
-|属性 | 说明 | 类型 | 默认值
-|----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 |   full  |  是否通栏  | boolean | `false` |
 
 ### Card.Header
 
-| 属性 | 说明 | 类型 | 默认值
-| ----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+| ----|-----|------|------|
 |title| 卡片标题 | React.Element、String | |
 |thumb| 卡片标题图片 | String、React.Element |  |
 |thumbStyle| 标题图片样式 | Object | {} |
@@ -34,8 +34,8 @@ import { Card } from '@libraui/base-mobile';
 
 ### Card.Footer
 
-| 属性 | 说明 | 类型 | 默认值
-| ----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+| ----|-----|------|------|
 |content|尾部内容 | React.Element、String | |
 |extra| 尾部辅助内容 | React.Element、String |  |
 

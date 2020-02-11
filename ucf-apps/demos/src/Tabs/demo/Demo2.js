@@ -29,5 +29,4 @@ const TabExample = () => (
 );
 
 export default TabExample
-//@title 
-//@description 固定高度
+//@title 固定高度

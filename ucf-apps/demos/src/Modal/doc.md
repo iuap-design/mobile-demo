@@ -5,7 +5,7 @@
 
 ## 如何使用
 ```
-import { Modal } from '@libraui/base-mobile';
+import { Modal } from 'tinper-libraui';
 
 ```
 
@@ -16,8 +16,8 @@ import { Modal } from '@libraui/base-mobile';
 
 ### Modal
 
-属性 | 说明 | 类型 | 默认值
-----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | afterClose | Modal 完全关闭后的回调 | function | 无 |
 | visible | 对话框是否可见 | Boolean | false |
 | closable | 是否显示关闭按钮 | Boolean | false |
@@ -36,8 +36,8 @@ import { Modal } from '@libraui/base-mobile';
 
 ### Modal.alert(title, message, actions?, platform?)
 
-属性 | 说明 | 类型 | 默认值
-----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | title | 标题  | String 或 React.Element | 无  |
 | message  | 提示信息  | String 或 React.Element  | 无  |
 | actions | 按钮组, [{text, onPress, style}] | Array | 无  |
@@ -47,8 +47,8 @@ import { Modal } from '@libraui/base-mobile';
 
 ### Modal.prompt(title, message, callbackOrActions, type?, defaultValue?, placeholders?, platform?)
 
-属性 | 说明 | 类型 | 默认值
-----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | title | 标题  | String 或 React.Element | 无  |
 | message  | 提示信息  | String 或 React.Element  | 无  |
 | callbackOrActions  | 按钮组 [{text, onPress}] 或回调函数  | Array or Function | 无  |
@@ -61,8 +61,8 @@ import { Modal } from '@libraui/base-mobile';
 
 ### Modal.operation(actions?, platform?)
 
-属性 | 说明 | 类型 | 默认值
-----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | actions | 按钮组, [{text, onPress, style}] | Array | 无  |
 | platform  |  设定组件的平台特有样式, 可选值为 `android`, `ios`， 默认为 `ios`  | String | `'ios'`|
 

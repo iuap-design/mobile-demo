@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { SearchBar } from '@libraui/base-mobile';
+import { SearchBar } from 'tinper-libraui';
 
 ```
 
@@ -14,8 +14,8 @@ import { SearchBar } from '@libraui/base-mobile';
 
 ## API
 
-|属性 | 说明 | 类型 | 默认值
-|----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | defaultValue |    搜索框的默认值     | String |    |
 | value      |  搜索框的当前值  | String |    |
 | placeholder    |    placeholder     | String |    |
@@ -33,13 +33,13 @@ import { SearchBar } from '@libraui/base-mobile';
 
 ### SearchBar Instance methods
 
-|属性 | 说明 | 类型 | 默认值
-|----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | focus     | 使 SearchBar 聚焦  | (): void |  -  |
 
 
 ## 注意事项
 
-RN 版本更多 API 请参考 [http://facebook.github.io/react-native/docs/textinput.html](http://facebook.github.io/react-native/docs/textinput.html)
+暂无
 
 ## 更新日志

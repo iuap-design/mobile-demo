@@ -1,5 +1,5 @@
 import React from 'react'
-import { SwipeAction, List } from 'antd-mobile';
+import { SwipeAction, List } from '@libraui/base-mobile';
 
 const SwipeActionExample = () => (
   <List>
@@ -149,3 +149,5 @@ const SwipeActionExample = () => (
 );
 
 export default SwipeActionExample
+
+//@title 基本示例

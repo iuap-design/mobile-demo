@@ -6,7 +6,7 @@
 ## 如何使用
 
 ```
-import { Accordion } from '@libraui/base-mobile';
+import { Accordion } from 'tinper-libraui';
 
 ```
 
@@ -18,8 +18,8 @@ import { Accordion } from '@libraui/base-mobile';
 
 ### Accordion
 
-|属性 | 说明 | 类型 | 默认值
-|----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | activeKey        | 当前激活 tab 面板的 key| Array or String   | 默认无，accordion模式下默认第一个元素|
 | defaultActiveKey | 初始化选中面板的 key | String   | 无 |
 | onChange      |   切换面板的回调   | (key: string): void |  noop  |
@@ -28,8 +28,8 @@ import { Accordion } from '@libraui/base-mobile';
 
 ### Accordion.Panel
 
-| 属性 | 说明 | 类型 | 默认值
-| ----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+| ----|-----|------|------|
 | key  | 对应 activeKey   | String          | 无     |
 | header | 面板头内容 | React.Element or String | 无     |
 

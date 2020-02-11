@@ -38,5 +38,4 @@ const TabExample = () => (
 
 
 export default TabExample
-//@title 
-//@description TabBar sticky
+//@title TabBar sticky

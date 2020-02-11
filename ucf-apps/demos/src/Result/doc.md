@@ -5,7 +5,7 @@
 
 ## 如何使用
 ```
-import { Result } from '@libraui/base-mobile';
+import { Result } from 'tinper-libraui';
 
 ```
 
@@ -15,8 +15,8 @@ import { Result } from '@libraui/base-mobile';
 ## API
 
 
-属性 | 说明 | 类型 | 默认值
-----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 imgUrl | 插图 url | string / Image Source(rn)  | -
 img | 插图元素 (可以为`<img src="" />`/`<Icon type="" />`等), 会覆盖 imgUrl 设置  | ReactNode | -
 title | title 文案 | ReactNode | -

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Result, Icon, WhiteSpace } from 'antd-mobile';
+import { Result, Icon, WhiteSpace } from '@libraui/base-mobile';
 const myImg = src => <img src={src} className="spe am-icon am-icon-md" alt="" />;
 
 const ResultExample = () => (<div className="result-example">

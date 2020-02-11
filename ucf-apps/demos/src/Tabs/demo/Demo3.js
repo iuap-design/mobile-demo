@@ -35,5 +35,5 @@ class Demo extends React.Component {
 
 export default Demo
 
-//@title 
+//@title 自定义个数
 //@description 自定义个数，超出界面宽度，多于5个标签

@@ -6,7 +6,7 @@ PickerView 的功能类似于 Picker ，但它是直接渲染在区域中，而�
 ## 如何使用
 
 ```
-import { PickerView } from '@libraui/base-mobile';
+import { PickerView } from 'tinper-libraui';
 
 ```
 
@@ -15,8 +15,8 @@ import { PickerView } from '@libraui/base-mobile';
 
 ## API
 
-|属性 | 说明 | 类型 | 默认值
-|----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | data  | 数据源     | `Array<{value, label}>` / `Array<Array<{value, label}>>` | -   |
 | value  | 值, 格式是`[value1, value2, value3]`, 对应数据源的相应级层 value  | Array  | -   |
 | cascade  | 是否级联   | Boolean| true|

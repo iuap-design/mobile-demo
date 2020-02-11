@@ -5,7 +5,7 @@
 
 ## 如何使用
 ```
-import { PullToRefresh } from '@libraui/base-mobile';
+import { PullToRefresh } from 'tinper-libraui';
 
 ```
 
@@ -15,8 +15,8 @@ import { PullToRefresh } from '@libraui/base-mobile';
 ## API
 
 
-属性 | 说明 | 类型 | 默认值
-----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | direction  | 拉动方向，可以是 `up` 或 `down` | String | `down` |
 | distanceToRefresh | 刷新距离 | number | 25 |
 | refreshing | 是否显示刷新状态 | bool | false |

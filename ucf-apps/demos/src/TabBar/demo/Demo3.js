@@ -151,5 +151,4 @@ class TabBarExample extends React.Component {
 }
 export default TabBarExample
 
-//@title 
-//@description 'Tabbar 在顶部
+//@title Tabbar 在顶部

@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { TextareaItem } from '@libraui/base-mobile';
+import { TextareaItem } from 'tinper-libraui';
 
 ```
 
@@ -14,8 +14,8 @@ import { TextareaItem } from '@libraui/base-mobile';
 
 ## API
 
-|属性 | 说明 | 类型 | 默认值
-|----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | value    | value 值(受控与否参考https://facebook.github.io/react/docs/forms.html)  | String |  无  |
 | defaultValue    | 设置初始默认值        | String |  -  |
 | placeholder      | placeholder        | String | ''  |
@@ -37,12 +37,13 @@ import { TextareaItem } from '@libraui/base-mobile';
 
 ## TextareaItem methods
 
-| 属性 | 说明 | 类型 | 默认值
-| ----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+| ----|-----|------|------|
 | focus   | 强制获得焦点  | - |  -  |
 
 
 ## 注意事项
 
+暂无
 
 ## 更新日志

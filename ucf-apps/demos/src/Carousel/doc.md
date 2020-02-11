@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { Carousel } from '@libraui/base-mobile';
+import { Carousel } from 'tinper-libraui';
 
 ```
 
@@ -15,8 +15,8 @@ import { Carousel } from '@libraui/base-mobile';
 ## API
 
 
-|属性 | 说明 | 类型 | 默认值
-|----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | selectedIndex |  手动设置当前显示的索引  |  number  |  0  |
 | dots | 是否显示面板指示点 | Boolean   | true |
 | vertical | 垂直显示 | Boolean   | false |

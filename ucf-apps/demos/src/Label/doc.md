@@ -1,12 +1,11 @@
-# 按钮 Button
-
-按钮组件通过点击执行一个具体的行为或动作。
+# 标签 Label
+Label
 
 
 ## 如何使用
 
 ```
-import { Button } from 'tinper-libraui';
+import { Label } from 'tinper-libraui';
 
 ```
 

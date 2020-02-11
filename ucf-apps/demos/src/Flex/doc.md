@@ -6,7 +6,7 @@ Flex 是 CSS flex 布局的一个封装。
 ## 如何使用
 
 ```
-import { Flex } from '@libraui/base-mobile';
+import { Flex } from 'tinper-libraui';
 
 ```
 
@@ -18,8 +18,8 @@ import { Flex } from '@libraui/base-mobile';
 
 ### Flex
 
-| 属性 | 说明 | 类型 | 默认值
-| ----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+| ----|-----|------|------ |
 | direction | 项目定位方向，值可以为 `row`,`row-reverse`,`column`,`column-reverse`, RN 仅支持`row`,`column`  | String  | `row` |
 | wrap | 子元素的换行方式，可选`nowrap`,`wrap`,`wrap-reverse`, RN 仅支持`nowrap`,`wrap`  | String  | `nowrap` |
 | justify  | 子元素在主轴上的对齐方式，可选`start`,`end`,`center`,`between`,`around`    | String   | `start` |

@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { Range } from '@libraui/base-mobile';
+import { Range } from 'tinper-libraui';
 
 ```
 
@@ -15,8 +15,8 @@ import { Range } from '@libraui/base-mobile';
 ## API
 
 
-|属性 | 说明 | 类型 | 默认值
-|----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | min    |  Number     | 0     | 最小值 |
 | max    |  Number     | 100    | 最大值 |
 | step    |  Number or null     | 1    | 步长，取值必须大于 0，并且可被 (max - min) 整除。当 `marks` 不为空对象时，可以设置 `step` 为 `null`，此时 Slider 的可选值仅有 marks 标出来的部分。 |

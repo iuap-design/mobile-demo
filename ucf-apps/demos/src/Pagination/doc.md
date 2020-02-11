@@ -1,19 +1,15 @@
----
-category: Components
-type: Navigation
-title: Pagination
-subtitle: 分页器
----
-
+# 分页器 Pagination
 分隔长列表，每次只加载一个页面。
 
-### 规则
+## 代码演示
+
+## 规则
 - 当加载/渲染所有数据将花费很多时间或者流量时使用
 
 ## API
 
-属性 | 说明 | 类型 | 默认值
-----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 |  mode  | 形态，可选`button`,`number`,`pointer` | string | `button`  |
 |  current  | 当前页号 | number  |  1  |
 |  total  | 数据总数 | number  |  0  |

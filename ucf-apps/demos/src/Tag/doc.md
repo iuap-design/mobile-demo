@@ -6,7 +6,7 @@
 ## 如何使用
 
 ```
-import { Tag } from '@libraui/base-mobile';
+import { Tag } from 'tinper-libraui';
 
 ```
 
@@ -16,8 +16,8 @@ import { Tag } from '@libraui/base-mobile';
 ## API
 
 
-|属性 | 说明 | 类型 | 默认值
-|----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | small   |  小号标签  |   Boolean    |  `false`  |
 | disabled   | 是否不可用      | Boolean |    `false`  |
 | closable   | 是否关闭（非 disabled small 状态） | Boolean | `false` |

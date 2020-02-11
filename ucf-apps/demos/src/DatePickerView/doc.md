@@ -5,7 +5,7 @@ DatePickerView 的功能类似于 DatePicker ，但它是直接渲染在区域�
 ## 如何使用
 
 ```
-import { DatePickerView } from '@libraui/base-mobile';
+import { DatePickerView } from 'tinper-libraui';
 
 ```
 
@@ -14,8 +14,8 @@ import { DatePickerView } from '@libraui/base-mobile';
 
 ## API
 
-|属性 | 说明 | 类型 | 默认值
-|----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | mode  | 日期选择的类型, 可以是日期`date`,时间`time`,日期+时间`datetime`,年`year`,月`month` | String | `date` |
 | value | 当前选中时间 | Date | 无 |
 | minDate   | 最小可选日期 | Date  |  2000-1-1  |

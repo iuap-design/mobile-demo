@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "writeFile": "node writeIndex.js",
-    "start": "cross-env NODE_ENV=development node writeIndex.js && ucf-scripts start --homepage=demos#/Button",
+    "start": "cross-env NODE_ENV=development node writeIndex.js && ucf-scripts start --homepage=demos#/Button --port=3001",
     "server": "cross-env NODE_ENV=server node writeIndex.js && ucf-scripts start --homepage=demos#/Button",
     "build": "cross-env NODE_ENV=server node writeIndex.js && ucf-scripts build"
   },
@@ -20,8 +20,9 @@
   },
   "homepage": "https://github.com/iuap-design/ucf-webapp#readme",
   "devDependencies": {
-    "ucf-scripts": "^1.1.9",
-    "copy-webpack-plugin": "^5.0.3"
+    "copy-webpack-plugin": "^5.0.3",
+    "gulp": "^4.0.2",
+    "ucf-scripts": "^1.1.9"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.0",

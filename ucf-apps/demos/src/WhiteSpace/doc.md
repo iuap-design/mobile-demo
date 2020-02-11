@@ -6,7 +6,7 @@
 ## 如何使用
 
 ```
-import { WhiteSpace } from '@libraui/base-mobile';
+import { WhiteSpace } from 'tinper-libraui';
 
 ```
 
@@ -16,8 +16,8 @@ import { WhiteSpace } from '@libraui/base-mobile';
 ## API
 
 
-| 属性 | 说明 | 类型 | 默认值
-| ----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+| ----|-----|------|------|
 | size       |  上下留白的间距，可选`xs`,`sm`,`md`,`lg`,`xl`  | string | `md`  |
 
 

@@ -50,5 +50,4 @@ const TabExample = () => (
   </div>
 );
 export default TabExample
-//@title 
-//@description 基础示例
+//@title 基础示例

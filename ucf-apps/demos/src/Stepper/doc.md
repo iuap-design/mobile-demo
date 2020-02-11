@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { Stepper } from '@libraui/base-mobile';
+import { Stepper } from 'tinper-libraui';
 
 ```
 
@@ -14,8 +14,8 @@ import { Stepper } from '@libraui/base-mobile';
 
 ## API
 
-|属性 | 说明 | 类型 | 默认值
-|----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | min     | 最小值   | Number | -Infinity        |
 | max     | 最大值       | Number      | Infinity           |
 | value     | 当前值       | Number      |            |

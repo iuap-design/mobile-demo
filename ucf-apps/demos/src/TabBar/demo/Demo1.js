@@ -151,5 +151,5 @@ class TabBarExample extends React.Component {
 export default TabBarExample
 
 
-//@title 
+//@title 组合ListView
 //@description 与ListView结合使用

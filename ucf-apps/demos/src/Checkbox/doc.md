@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { Checkbox } from '@libraui/base-mobile';
+import { Checkbox } from 'tinper-libraui';
 
 ```
 
@@ -16,8 +16,8 @@ import { Checkbox } from '@libraui/base-mobile';
 
 ### Checkbox
 
-|属性 | 说明 | 类型 | 默认值
-|----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | defaultChecked  |  初始是否选中  | Boolean   | 无  |
 | checked         |   指定当前是否选中   | Boolean  | 无  |
 | disabled        |         | Boolean |  false  |

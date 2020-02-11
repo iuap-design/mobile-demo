@@ -5,7 +5,7 @@
 ## 如何使用
 
 ```
-import { Radio } from '@libraui/base-mobile';
+import { Radio } from 'tinper-libraui';
 
 ```
 
@@ -16,8 +16,8 @@ import { Radio } from '@libraui/base-mobile';
 
 ### Radio
 
-|属性 | 说明 | 类型 | 默认值
-|----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | name    |   name  | String |   无  |
 | defaultChecked |   初始是否选中   | Boolean  | 无  |
 | checked    |   指定当前是否选中  | Boolean  | 无  |

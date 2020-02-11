@@ -47,6 +47,8 @@ import Tag from "./Tag/index";
 import TextareaItem from "./TextareaItem/index";
 import WhiteSpace from "./WhiteSpace/index";
 import WingBlank from "./WingBlank/index";
+import Label from "./Label/index";
+import ActivityIndicator from "./ActivityIndicator/index";
 import "@libraui/base-mobile/dist/index.css"
 import "./app.less";
 
@@ -95,6 +97,8 @@ class App extends Component{
 <Link to="/TextareaItem">TextareaItem</Link>
 <Link to="/WhiteSpace">WhiteSpace</Link>
 <Link to="/WingBlank">WingBlank</Link>
+<Link to="/Label">Label</Link>
+<Link to="/ActivityIndicator">ActivityIndicator</Link>
     </div>)
     }
 }
@@ -147,6 +151,8 @@ class Routers extends Component{
 <Route exact path="/TextareaItem" component={TextareaItem} /> 
 <Route exact path="/WhiteSpace" component={WhiteSpace} /> 
 <Route exact path="/WingBlank" component={WingBlank} /> 
+<Route exact path="/Label" component={Label} /> 
+<Route exact path="/ActivityIndicator" component={ActivityIndicator} /> 
                 </div>
             </Router>
         )

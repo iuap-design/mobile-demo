@@ -6,7 +6,7 @@
 ## 如何使用
 
 ```
-import { ListView } from '@libraui/base-mobile';
+import { ListView } from 'tinper-libraui';
 
 ```
 
@@ -16,8 +16,8 @@ import { ListView } from '@libraui/base-mobile';
 ## API
 
 
-|属性 | 说明 | 类型 | 默认值
-|----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+|----|-----|------|------|
 | dataSource | [ListView.DataSource](https://facebook.github.io/react-native/docs/listviewdatasource) 实例 | ListViewDataSource | - |
 | initialListSize | 指定在组件刚挂载的时候渲染多少行数据，用这个属性来确保首屏显示合适数量的数据 | number | - |
 | onEndReached | 当所有的数据都已经渲染过，并且列表被滚动到距离最底部不足`onEndReachedThreshold`个像素的距离时调用 | (event?) => {} | - |
@@ -35,7 +35,6 @@ import { ListView } from '@libraui/base-mobile';
 | onScroll | 在滚动的过程中，每帧最多调用一次此回调函数。调用的频率可以用`scrollEventThrottle`属性来控制。| e => {} | - |
 | scrollEventThrottle | 控制在滚动过程中，scroll事件被调用的频率 | number | 50 |
 | onLayout | 当组件挂载或者布局变化的时候调用 | ({nativeEvent:{ layout:{ width, height }}}) => {} | - |
-| ---- |
 | renderBodyComponent  | 自定义 body 的包裹组件 | () => renderable | - |
 | renderSectionWrapper  | 渲染自定义的区块包裹组件 | (sectionID) => renderable | - |
 | renderSectionBodyWrapper  | 渲染自定义的区块 body 包裹组件 | (sectionID) => renderable | - |
@@ -57,8 +56,8 @@ import { ListView } from '@libraui/base-mobile';
 >
 > 注意：由于索引列表可以点击任一项索引来定位其内容、即内容需要直接滚动到任意位置，这样就难以做到像 ListView 一样能在滚动时自动懒渲染。目前实现上只支持分两步渲染，能借此达到首屏优先显示目的，但如果列表数据量过大时、整体性能仍会有影响。
 
-属性 | 说明 | 类型 | 默认值
-----|-----|------|------
+| 属性 | 说明 | 类型 | 默认值 |
+----|-----|------|------|
 | quickSearchBarTop | 快捷导航栏最顶部按钮、常用于回到顶部 | object{value:string, label:string} | `{ value: '#', label: '#' }` |
 | quickSearchBarStyle | quickSearchBar 的 style | object | - |
 | onQuickSearch | 快捷导航切换时调用 | (sectionID: any, topId?:any) => void | - |
