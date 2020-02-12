@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { WhiteSpace } from '@libraui/base-mobile';
+import { WhiteSpace } from 'tinper-libraui';
 
 const PlaceHolder = ({ className = '', ...restProps }) => (
   <div className={`${className} placeholder`} {...restProps}>Block</div>

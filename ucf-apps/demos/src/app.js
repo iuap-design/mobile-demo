@@ -6,6 +6,7 @@ import React, { Component } from "react";
 import ReactDOM from 'react-dom';
 import { HashRouter as Router, Link, Route } from 'react-router-dom';
 import Accordion from "./Accordion/index";
+import ActivityIndicator from "./ActivityIndicator/index";
 import Badge from "./Badge/index";
 import Button from "./Button/index";
 import Calendar from "./Calendar/index";
@@ -20,6 +21,7 @@ import Grid from "./Grid/index";
 import Icon from "./Icon/index";
 import ImagePicker from "./ImagePicker/index";
 import InputItem from "./InputItem/index";
+import Label from "./Label/index";
 import List from "./List/index";
 import ListView from "./ListView/index";
 import Menu from "./Menu/index";
@@ -47,15 +49,14 @@ import Tag from "./Tag/index";
 import TextareaItem from "./TextareaItem/index";
 import WhiteSpace from "./WhiteSpace/index";
 import WingBlank from "./WingBlank/index";
-import Label from "./Label/index";
-import ActivityIndicator from "./ActivityIndicator/index";
-import "@libraui/base-mobile/dist/index.css"
+import "tinper-libraui/dist/index.css"
 import "./app.less";
 
 class App extends Component{
     render(){
         return (<div className='link'>
         <Link to="/Accordion">Accordion</Link>
+<Link to="/ActivityIndicator">ActivityIndicator</Link>
 <Link to="/Badge">Badge</Link>
 <Link to="/Button">Button</Link>
 <Link to="/Calendar">Calendar</Link>
@@ -70,6 +71,7 @@ class App extends Component{
 <Link to="/Icon">Icon</Link>
 <Link to="/ImagePicker">ImagePicker</Link>
 <Link to="/InputItem">InputItem</Link>
+<Link to="/Label">Label</Link>
 <Link to="/List">List</Link>
 <Link to="/ListView">ListView</Link>
 <Link to="/Menu">Menu</Link>
@@ -97,8 +99,6 @@ class App extends Component{
 <Link to="/TextareaItem">TextareaItem</Link>
 <Link to="/WhiteSpace">WhiteSpace</Link>
 <Link to="/WingBlank">WingBlank</Link>
-<Link to="/Label">Label</Link>
-<Link to="/ActivityIndicator">ActivityIndicator</Link>
     </div>)
     }
 }
@@ -110,6 +110,7 @@ class Routers extends Component{
                 <div className='demo-sidebar'>
                     <App/>
 <Route exact path="/Accordion" component={Accordion} /> 
+<Route exact path="/ActivityIndicator" component={ActivityIndicator} /> 
 <Route exact path="/Badge" component={Badge} /> 
 <Route exact path="/Button" component={Button} /> 
 <Route exact path="/Calendar" component={Calendar} /> 
@@ -124,6 +125,7 @@ class Routers extends Component{
 <Route exact path="/Icon" component={Icon} /> 
 <Route exact path="/ImagePicker" component={ImagePicker} /> 
 <Route exact path="/InputItem" component={InputItem} /> 
+<Route exact path="/Label" component={Label} /> 
 <Route exact path="/List" component={List} /> 
 <Route exact path="/ListView" component={ListView} /> 
 <Route exact path="/Menu" component={Menu} /> 
@@ -151,8 +153,6 @@ class Routers extends Component{
 <Route exact path="/TextareaItem" component={TextareaItem} /> 
 <Route exact path="/WhiteSpace" component={WhiteSpace} /> 
 <Route exact path="/WingBlank" component={WingBlank} /> 
-<Route exact path="/Label" component={Label} /> 
-<Route exact path="/ActivityIndicator" component={ActivityIndicator} /> 
                 </div>
             </Router>
         )

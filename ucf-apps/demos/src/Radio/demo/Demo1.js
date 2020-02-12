@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { List, Radio, Flex, WhiteSpace } from '@libraui/base-mobile';
+import { List, Radio, Flex, WhiteSpace } from 'tinper-libraui';
 
 const RadioItem = Radio.RadioItem;
 

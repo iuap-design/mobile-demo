@@ -27,7 +27,6 @@
   "dependencies": {
     "@babel/polyfill": "^7.4.0",
     "@babel/runtime": "^7.4.0",
-    "@libraui/base-mobile": "^0.1.29",
     "antd-mobile-demo-data": "^0.3.0",
     "array-tree-filter": "^2.1.0",
     "classnames": "^2.2.6",
@@ -39,6 +38,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router": "^5.1.2",
-    "react-sticky": "^6.0.3"
+    "react-sticky": "^6.0.3",
+    "tinper-libraui": "^0.2.8"
   }
 }

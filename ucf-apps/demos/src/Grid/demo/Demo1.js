@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid } from '@libraui/base-mobile';
+import { Grid } from 'tinper-libraui';
 
 const data = Array.from(new Array(9)).map((_val, i) => ({
   icon: 'https://gw.alipayobjects.com/zos/rmsportal/nywPmnTAvTmLusPxHPSu.png',

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Range, WingBlank, WhiteSpace } from '@libraui/base-mobile';
+import { Range, WingBlank, WhiteSpace } from 'tinper-libraui';
 
 const RangeDemo = () => {
   const log = (name) => {

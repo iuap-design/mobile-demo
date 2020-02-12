@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { List, InputItem } from '@libraui/base-mobile';
+import { List, InputItem } from 'tinper-libraui';
 import { createForm } from 'rc-form';
 
 // 通过自定义 moneyKeyboardWrapProps 修复虚拟键盘滚动穿透问题

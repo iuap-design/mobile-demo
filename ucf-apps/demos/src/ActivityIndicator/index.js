@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Demo1 from './demo/Demo1.js'
+import './demo/Demo1.less'
+
 
 class Exmple extends React.Component {
 

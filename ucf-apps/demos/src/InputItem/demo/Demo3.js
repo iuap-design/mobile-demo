@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { List, InputItem, Toast } from '@libraui/base-mobile';
+import { List, InputItem, Toast } from 'tinper-libraui';
 
 class ErrorInputExample extends React.Component {
   state = {

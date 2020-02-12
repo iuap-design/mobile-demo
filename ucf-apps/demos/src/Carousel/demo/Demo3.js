@@ -1,5 +1,5 @@
 import React from "react";
-import { Carousel, Button, WhiteSpace, WingBlank } from '@libraui/base-mobile';
+import { Carousel, Button, WhiteSpace, WingBlank } from 'tinper-libraui';
 
 class App extends React.Component {
   state = {

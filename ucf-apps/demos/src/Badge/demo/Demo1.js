@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { List, Badge } from '@libraui/base-mobile';
+import { List, Badge } from 'tinper-libraui';
 const BadgeDemo = () => (
   <List>
     <List.Item extra="extra content" arrow="horizontal">

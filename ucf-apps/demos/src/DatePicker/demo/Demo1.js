@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { DatePicker, List } from '@libraui/base-mobile';
+import { DatePicker, List } from 'tinper-libraui';
 import enUs from 'antd-mobile/lib/date-picker/locale/en_US';
 
 const nowTimeStamp = Date.now();

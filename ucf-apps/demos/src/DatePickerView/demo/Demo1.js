@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { DatePickerView } from '@libraui/base-mobile';
+import { DatePickerView } from 'tinper-libraui';
 import enUs from 'antd-mobile/lib/date-picker-view/locale/en_US';
 
 class DatePickerViewExample extends React.Component {

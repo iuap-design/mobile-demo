@@ -1,7 +1,7 @@
 import React from "react";
 import { province } from 'antd-mobile-demo-data';
 import { StickyContainer, Sticky } from 'react-sticky';
-import { ListView, List, SearchBar } from '@libraui/base-mobile';
+import { ListView, List, SearchBar } from 'tinper-libraui';
 
 const { Item } = List;
 

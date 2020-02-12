@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Card, WingBlank, WhiteSpace } from '@libraui/base-mobile';
+import { Card, WingBlank, WhiteSpace } from 'tinper-libraui';
 class Test extends Component{
   render(){
     return <WingBlank size="lg">

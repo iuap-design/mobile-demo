@@ -1,5 +1,5 @@
 import React from 'react'
-import { Icon, Grid } from '@libraui/base-mobile';
+import { Icon, Grid } from 'tinper-libraui';
 
 const list = [
   'check-circle', 'check', 'check-circle-o',

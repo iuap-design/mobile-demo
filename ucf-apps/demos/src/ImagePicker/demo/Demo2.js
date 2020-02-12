@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { ImagePicker } from '@libraui/base-mobile';
+import { ImagePicker } from 'tinper-libraui';
 
 const data = [{
   url: 'https://zos.alipayobjects.com/rmsportal/PZUUCKTRIHWiZSY.jpeg',

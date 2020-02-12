@@ -1,5 +1,5 @@
 import React from "react";
-import { ListView } from '@libraui/base-mobile';
+import { ListView } from 'tinper-libraui';
 import { StickyContainer, Sticky } from 'react-sticky';
 
 const data = [

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Tag } from '@libraui/base-mobile';
+import { Tag } from 'tinper-libraui';
 
 function onChange(selected) {
   console.log(`tag selected: ${selected}`);

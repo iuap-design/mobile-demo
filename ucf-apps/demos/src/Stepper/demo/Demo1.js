@@ -1,5 +1,5 @@
 import React from "react";
-import { List, Stepper } from '@libraui/base-mobile';
+import { List, Stepper } from 'tinper-libraui';
 
 class Demo extends React.Component {
   constructor(props) {
@@ -10,7 +10,7 @@ class Demo extends React.Component {
     };
   }
   onChange = (val) => {
-    // console.log(val);
+    console.log(val);
     this.setState({ val });
   }
   onChange1 = (val1) => {
@@ -18,6 +18,8 @@ class Demo extends React.Component {
     this.setState({ val1 });
   }
   render() {
+    console.log(List)
+    console.log(List.Item)
     return (
       <List>
         <List.Item
@@ -28,13 +30,14 @@ class Demo extends React.Component {
               showNumber
               max={10}
               min={1}
-              value={this.state.val}
+              defaultValue={this.state.val}
               onChange={this.onChange}
-            />}
+            />
+          }
         >
         Show number value
         </List.Item>
-        <List.Item extra={
+        {/* <List.Item extra={
           <Stepper
             style={{ width: '100%', minWidth: '100px' }}
             showNumber
@@ -45,7 +48,7 @@ class Demo extends React.Component {
           />}
         >
         Disabled
-        </List.Item>
+        </List.Item> */}
       </List>
     );
   }

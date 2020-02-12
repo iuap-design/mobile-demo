@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Accordion, List } from '@libraui/base-mobile';
+import { Accordion, List } from 'tinper-libraui';
 
 class AccordionExmple extends React.Component {
   onChange = (key) => {

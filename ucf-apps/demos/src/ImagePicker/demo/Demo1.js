@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { ImagePicker, WingBlank, SegmentedControl } from '@libraui/base-mobile';
+import { ImagePicker, WingBlank, SegmentedControl } from 'tinper-libraui';
 
 const data = [{
   url: 'https://zos.alipayobjects.com/rmsportal/PZUUCKTRIHWiZSY.jpeg',

@@ -1,5 +1,5 @@
 import React from "react";
-import { List, TextareaItem } from '@libraui/base-mobile';
+import { List, TextareaItem } from 'tinper-libraui';
 import { createForm } from 'rc-form';
 
 class TextareaItemExample extends React.Component {

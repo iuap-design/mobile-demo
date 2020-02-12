@@ -1,5 +1,5 @@
 import React from 'react'
-import { SwipeAction, List } from '@libraui/base-mobile';
+import { SwipeAction, List } from 'tinper-libraui';
 
 const SwipeActionExample = () => (
   <List>

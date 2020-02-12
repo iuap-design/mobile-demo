@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Label, WingBlank } from '@libraui/base-mobile';
+import { Label, WingBlank } from 'tinper-libraui';
 
 class LabelExample extends Component{
     render(){

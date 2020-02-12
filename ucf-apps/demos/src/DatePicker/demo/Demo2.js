@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { DatePicker, List, Button, InputItem } from '@libraui/base-mobile';
+import { DatePicker, List, Button, InputItem } from 'tinper-libraui';
 import { createForm } from 'rc-form';
 
 const nowTimeStamp = Date.now();

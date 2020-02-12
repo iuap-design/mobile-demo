@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { List, InputItem, Switch, Range, Button } from '@libraui/base-mobile';
+import { List, InputItem, Switch, Range, Button } from 'tinper-libraui';
 import { createForm } from 'rc-form';
 
 const Item = List.Item;

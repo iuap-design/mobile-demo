@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { ActivityIndicator, WingBlank, WhiteSpace, Button } from '@libraui/base-mobile';
+import { ActivityIndicator, WingBlank, WhiteSpace, Button } from 'tinper-libraui';
 import './Demo1.less';
 class ActivityIndicatorExample extends Component {
   constructor(props) {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { PickerView, WhiteSpace } from '@libraui/base-mobile';
+import { PickerView, WhiteSpace } from 'tinper-libraui';
 
 const seasons = [
   [

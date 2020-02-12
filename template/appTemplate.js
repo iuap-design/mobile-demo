@@ -6,7 +6,7 @@ import React, { Component } from "react";
 import ReactDOM from 'react-dom';
 import { HashRouter as Router, Link, Route } from 'react-router-dom';
 replaceImportant
-import "@libraui/base-mobile/dist/index.css"
+import "tinper-libraui/dist/index.css"
 import "./app.less";
 
 class App extends Component{

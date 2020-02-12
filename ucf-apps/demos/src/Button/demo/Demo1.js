@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button, WhiteSpace, WingBlank } from '@libraui/base-mobile';
+import { Button, WhiteSpace, WingBlank } from 'tinper-libraui';
 
 class ButtonExample extends Component{
     render(){

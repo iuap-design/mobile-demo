@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { List, Checkbox, Flex } from '@libraui/base-mobile';
+import { List, Checkbox, Flex } from 'tinper-libraui';
 
 const CheckboxItem = Checkbox.CheckboxItem;
 const AgreeItem = Checkbox.AgreeItem;

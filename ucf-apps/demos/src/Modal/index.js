@@ -11,10 +11,10 @@ class Exmple extends React.Component {
   render() {
     return (
       <div className='demo'>
-        <div className='demo-item'><div className='demo-item-title'></div><Demo1/></div>
-<div className='demo-item'><div className='demo-item-title'></div><Demo2/></div>
-<div className='demo-item'><div className='demo-item-title'></div><Demo3/></div>
-<div className='demo-item'><div className='demo-item-title'></div><Demo4/></div>
+        <div className='demo-item'><div className='demo-item-title'> 警告弹窗</div><Demo1/></div>
+<div className='demo-item'><div className='demo-item-title'> 基本示例</div><Demo2/></div>
+<div className='demo-item'><div className='demo-item-title'> 操作弹窗</div><Demo3/></div>
+<div className='demo-item'><div className='demo-item-title'> 输入弹框</div><Demo4/></div>
       </div>
     );
   }

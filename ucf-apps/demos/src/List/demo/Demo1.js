@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { List } from '@libraui/base-mobile';
+import { List } from 'tinper-libraui';
 const Item = List.Item;
 const Brief = Item.Brief;
 class ListExample extends React.Component {

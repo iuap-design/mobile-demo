@@ -1,5 +1,5 @@
 import React from "react";
-import { Slider, WingBlank, WhiteSpace } from '@libraui/base-mobile';
+import { Slider, WingBlank, WhiteSpace } from 'tinper-libraui';
 
 class App extends React.Component {
   log = (name) => {

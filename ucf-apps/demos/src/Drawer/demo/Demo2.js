@@ -1,4 +1,4 @@
-import { Drawer, List, NavBar, Icon } from '@libraui/base-mobile';
+import { Drawer, List, NavBar, Icon } from 'tinper-libraui';
 import './Demo2.less'
 class App extends React.Component {
   state = {
