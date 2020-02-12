@@ -1,5 +1,5 @@
 
-import { Tabs, WhiteSpace, Badge } from 'antd-mobile';
+import { Tabs, WhiteSpace, Badge } from 'tinper-libraui';
 
 const tabs = [
   { title: <Badge text={'3'}>First Tab</Badge> },

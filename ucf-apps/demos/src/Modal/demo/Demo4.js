@@ -1,5 +1,5 @@
 import React from 'react'
-import { Modal, Button, WingBlank, WhiteSpace, Toast } from 'antd-mobile';
+import { Modal, Button, WingBlank, WhiteSpace, Toast } from 'tinper-libraui';
 
 const prompt = Modal.prompt;
 

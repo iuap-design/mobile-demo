@@ -1,5 +1,5 @@
 
-import { Tabs, WhiteSpace } from 'antd-mobile';
+import { Tabs, WhiteSpace } from 'tinper-libraui';
 
 class Demo extends React.Component {
   renderContent = tab =>

@@ -44,7 +44,7 @@ class App extends React.Component {
           {this.state.data.map((val, index) => (
             <a
               key={val + index}
-              href="http://www.alipay.com"
+              href="http://www.tinper.org/"
               style={{ display: 'inline-block', width: '100%', height: this.state.imgHeight }}
             >
               <img

@@ -10,10 +10,6 @@ import { Menu } from 'tinper-libraui';
 
 ## 代码演示
 
-## 规则
-- 至少包含 2 个以上的菜单项。
-- 不应该被当做主要导航方式。
-
 ## API
 
 | 属性 | 说明 | 类型 | 默认值 |
@@ -26,3 +22,9 @@ import { Menu } from 'tinper-libraui';
 | onCancel    |   多选状态下取消按钮回调  | (): void  |  |
 | height    |   筛选组件的高度   | number  | `document.documentElement.clientHeight / 2` |
 | multiSelect    |   是否支持菜单多选  | boolean  | false |
+
+## 注意事项
+
+暂无
+
+## 更新日志

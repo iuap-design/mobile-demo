@@ -1,5 +1,5 @@
 
-import { Menu, ActivityIndicator, NavBar } from 'antd-mobile';
+import { Menu, ActivityIndicator, NavBar } from 'tinper-libraui';
 import './MultiSelect.less'
 const data = [
   {

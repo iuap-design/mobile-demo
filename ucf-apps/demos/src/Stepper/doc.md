@@ -31,5 +31,6 @@ import { Stepper } from 'tinper-libraui';
 ## 注意事项
 
 当想要对数值进行小幅度调整时，可以使用 Stepper，eg：将年化收益从 4.00% 调整到 4.05%。
+在移动设备上触发onTouch事件会导致步数改变，onClick不会。
 
 ## 更新日志

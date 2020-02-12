@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavBar, Icon } from 'antd-mobile';
+import { NavBar, Icon } from 'tinper-libraui';
 class NavBarExample extends React.Component {
   render() {
     return (<div>

@@ -1,5 +1,5 @@
 
-import { NoticeBar, WhiteSpace, Icon } from 'antd-mobile';
+import { NoticeBar, WhiteSpace, Icon } from 'tinper-libraui';
 
 const NoticeBarExample = () => (
   <div>

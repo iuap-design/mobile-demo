@@ -37,7 +37,7 @@ class Demo extends React.Component {
         >
         Show number value
         </List.Item>
-        {/* <List.Item extra={
+        <List.Item extra={
           <Stepper
             style={{ width: '100%', minWidth: '100px' }}
             showNumber
@@ -48,7 +48,7 @@ class Demo extends React.Component {
           />}
         >
         Disabled
-        </List.Item> */}
+        </List.Item>
       </List>
     );
   }

@@ -1,5 +1,5 @@
 
-import { SegmentedControl, WingBlank } from 'antd-mobile';
+import { SegmentedControl, WingBlank } from 'tinper-libraui';
 import './Demo1.less'
 class SegmentedControlExample extends React.Component {
   onChange = (e) => {

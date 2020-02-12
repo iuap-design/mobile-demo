@@ -1,5 +1,5 @@
 
-import { Tabs, WhiteSpace } from 'antd-mobile';
+import { Tabs, WhiteSpace } from 'tinper-libraui';
 import { StickyContainer, Sticky } from 'react-sticky';
 
 function renderTabBar(props) {

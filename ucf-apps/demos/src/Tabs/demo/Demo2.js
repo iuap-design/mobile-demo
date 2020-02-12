@@ -1,5 +1,5 @@
 
-import { Tabs, WhiteSpace } from 'antd-mobile';
+import { Tabs, WhiteSpace } from 'tinper-libraui';
 
 const tabs = [
   { title: 'First Tab', key: 't1' },

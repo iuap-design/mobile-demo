@@ -1,5 +1,5 @@
 
-import { Menu, ActivityIndicator, NavBar } from 'antd-mobile';
+import { Menu, ActivityIndicator, NavBar } from 'tinper-libraui';
 import './Basic.less'
 const data = [
   {
@@ -142,7 +142,7 @@ class MenuExample extends React.Component {
             onLeftClick={this.handleClick}
             className="top-nav-bar"
           >
-            Here is title
+            Basic Menu
           </NavBar>
         </div>
         {show ? initData ? menuEl : loadingEl : null}

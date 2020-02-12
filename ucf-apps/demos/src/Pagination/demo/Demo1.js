@@ -1,4 +1,4 @@
-import { Pagination, Icon } from 'antd-mobile';
+import { Pagination, Icon } from 'tinper-libraui';
 import './Demo1.less'
 const locale = {
   prevText: 'Prev',

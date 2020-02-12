@@ -1,4 +1,4 @@
-import { TabBar } from 'antd-mobile';
+import { TabBar } from 'tinper-libraui';
 import './Demo1.less'
 class TabBarExample extends React.Component {
   constructor(props) {
@@ -151,5 +151,5 @@ class TabBarExample extends React.Component {
 export default TabBarExample
 
 
-//@title 组合ListView
-//@description 与ListView结合使用
+//@title 基础示例
+//@description 基本使用方式

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Modal, Button, WhiteSpace, WingBlank } from 'antd-mobile';
+import { Modal, Button, WhiteSpace, WingBlank } from 'tinper-libraui';
 
 const operation = Modal.operation;
 

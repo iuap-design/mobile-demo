@@ -1,5 +1,5 @@
 import React from 'react'
-import { Modal, List, Button, WhiteSpace, WingBlank, Icon } from 'antd-mobile';
+import { Modal, List, Button, WhiteSpace, WingBlank, Icon } from 'tinper-libraui';
 
 function closest(el, selector) {
   const matchesSelector = el.matches || el.webkitMatchesSelector || el.mozMatchesSelector || el.msMatchesSelector;

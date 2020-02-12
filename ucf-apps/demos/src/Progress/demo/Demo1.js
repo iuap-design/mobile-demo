@@ -25,7 +25,7 @@ class MyProgress extends React.Component {
         </div>
         <WhiteSpace size="xl" />
         <WingBlank>
-          <Button onClick={this.add}>(+-)10</Button>
+          <Button onClick={this.add}>+10%/Reset</Button>
         </WingBlank>
       </div>
     );
