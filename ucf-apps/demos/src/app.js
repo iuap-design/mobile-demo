@@ -108,8 +108,7 @@ class Routers extends Component{
         return (
             <Router path="/" >
                 <div className='demo-sidebar'>
-                    <App/>
-<Route exact path="/Accordion" component={Accordion} /> 
+                    <Route exact path="/Accordion" component={Accordion} /> 
 <Route exact path="/ActivityIndicator" component={ActivityIndicator} /> 
 <Route exact path="/Badge" component={Badge} /> 
 <Route exact path="/Button" component={Button} /> 
@@ -159,4 +158,4 @@ class Routers extends Component{
     }
 }
 
-ReactDOM.render(<Routers/>, document.getElementById('mobileDemo'));
+ReactDOM.render(<Routers/>, document.getElementById('testPhone'));
