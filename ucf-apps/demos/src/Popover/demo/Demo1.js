@@ -1,25 +1,26 @@
 import { Popover, NavBar, Icon } from 'tinper-libraui';
 
 const Item = Popover.Item;
-
-const myImg = src => <img src={`https://gw.alipayobjects.com/zos/rmsportal/${src}.svg`} className="am-icon am-icon-xs" alt="" />;
 class App extends React.Component {
   state = {
     visible: true,
     selected: '',
   };
   onSelect = (opt) => {
-    // console.log(opt.props.value);
-    this.setState({
-      visible: false,
-      selected: opt.props.value,
-    });
+    console.log(opt);
   };
   handleVisibleChange = (visible) => {
     this.setState({
       visible,
     });
   };
+
+  onClickPopoverItem = ( item ) => {
+    alert(`you click the item: '${item}'`);
+    this.setState({
+      visible: false
+    })
+  }
   render() {
     return (<div>
       <NavBar
@@ -29,11 +30,7 @@ class App extends React.Component {
             overlayClassName="fortest"
             overlayStyle={{ color: 'currentColor' }}
             visible={this.state.visible}
-            overlay={[
-              (<Item key="4" value="scan" icon={myImg('tOtXhkIWzwotgGSeptou')} data-seed="logId">Scan</Item>),
-              (<Item key="5" value="special" icon={myImg('PKAgAqZWJVNwKsAJSmXd')} style={{ whiteSpace: 'nowrap' }}>My Qrcode</Item>),
-              (<Item key="6" value="button ct" icon={myImg('uQIYTFeRrjPELImDRrPt')}>Help</Item>),
-            ]}
+            type="ellipsis"
             align={{
               overflow: { adjustY: 0, adjustX: 0 },
               offset: [-10, 0],
@@ -41,17 +38,9 @@ class App extends React.Component {
             onVisibleChange={this.handleVisibleChange}
             onSelect={this.onSelect}
           >
-            <div style={{
-              height: '100%',
-              padding: '0 15px',
-              marginRight: '-15px',
-              display: 'flex',
-              alignItems: 'center',
-            }}
-            >
-              <Icon type="ellipsis" />
-            </div>
-          </Popover>
+            <Item key="1" value="item1" type='check' data-seed="logId" onClick={()=> {this.onClickPopoverItem('item 1')}}>Item 1</Item>
+            <Item key="2" value="item2" type='cross' style={{ whiteSpace: 'nowrap' }} onClick={()=> {this.onClickPopoverItem('item 2')}}>Item 2</Item>
+          </Popover> 
         }
       >
         NavBar
