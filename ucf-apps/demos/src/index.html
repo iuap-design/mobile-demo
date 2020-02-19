@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style='font-size: 50px;'>
+<html >
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -8,6 +8,34 @@
 </head>
 <body style="background: #f5f5f9">
     <div id="testPhone"></div>
+    <script>
+        //根据屏幕大小改变根元素字体大小
+   (function(doc, win) {
+       window._dbVersion = 1;
+       window._dbTables = ['billNodata', 'business']
+       window.__fontUnit = 0
+       var docEl = doc.documentElement,
+          // resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+           recalc = function() {
+               var clientWidth = docEl.clientWidth;
+               if (!clientWidth) return;
+               if (clientWidth >= 750) { //750这个值，根据设计师的psd宽度来修改，是多少就写多少，现在手机端一般是750px的设计稿，如果设计师给的1920的psd，自己用Photoshop等比例缩小
+                   window.__fontUnit = 100;
+                   docEl.style.fontSize = window.__fontUnit + 'px';
+   
+               } else {
+                   window.__fontUnit = 100 * (clientWidth / 750);
+                   docEl.style.fontSize = window.__fontUnit + 'px'; //750这个值，根据设计师的psd宽度来修改，是多少就写多少，现在手机端一般是750px的设计稿，如果设计师给的1920的psd，自己用Photoshop等比例缩小
+               }
+           };
+   
+       if (!doc.addEventListener) return;
+    //   win.addEventListener(resizeEvt, recalc, false);
+       doc.addEventListener('DOMContentLoaded', recalc, false);
+   
+   })(document, window);
+   
+   </script>
     <script src="//design.yonyoucloud.com/static/console-polyfill/console-polyfill.js"></script>
     <script src="//design.yonyoucloud.com/static/es5-shim/es5-shim.min.js"></script>
     <script src="//design.yonyoucloud.com/static/es5-shim/es5-sham.min.js"></script>
